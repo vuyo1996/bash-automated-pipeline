@@ -1,6 +1,6 @@
 # Bash Automated Pipeline
 
-A Linux and Bash data pipeline that downloads country data from the REST Countries API, processes the downloaded JSON with Python and pandas, logs pipeline outcomes, summarizes successful and failed runs from the last 7 days, and runs automatically using cron.
+A Linux and Bash data pipeline that downloads country data from the REST Countries API, processes the downloaded JSON with Python and pandas, logs pipeline outcomes, summarises successful and failed runs from the last 7 days, and runs automatically using cron.
 
 ## Project Overview
 
@@ -25,7 +25,7 @@ The pipeline is scheduled to run daily using cron.
 ```text
 bash-automated-pipeline/
 ├── run_pipeline.sh
-├── summarize_runs.sh
+├── summarise_runs.sh
 ├── process_country.py
 ├── requirements.txt
 ├── README.md
@@ -84,7 +84,7 @@ Make the Bash scripts executable:
 
 ```bash
 chmod u+x run_pipeline.sh
-chmod u+x summarize_runs.sh
+chmod u+x summarise_runs.sh
 ```
 
 ## Running the Pipeline
@@ -114,7 +114,7 @@ tail -f log_file.txt
 Run:
 
 ```bash
-./summarize_runs.sh
+./summarise_runs.sh
 ```
 
 Example output:
